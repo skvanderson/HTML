@@ -1,0 +1,97 @@
+/* Estilo base para todo o site */
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+    padding-bottom: 30px; /* Adiciona espaço na parte inferior para acomodar o rodapé fixo */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Fixa o menu de navegação */
+    top: 0; /* Alinha o menu de navegação ao topo */
+    width: 100%; /* Define a largura do menu de navegação */
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #4CAF50;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px; /* Adapte conforme necessário para posicionar o conteúdo abaixo do menu */
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px 0;
+    position: fixed; /* Fixa o rodapé */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo específico para a tabela */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto; /* Centraliza a tabela */
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+th, td {
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Remove os marcadores de lista padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Centraliza a imagem no header */
+header img {
+    display: block;
+    margin: 0 auto;
+}
